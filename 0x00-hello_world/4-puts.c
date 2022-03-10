@@ -1,11 +1,11 @@
 #include <stdio.h>
-/*
- *Uses the func puts
- */
 
+/**
+ * main - prints Programming is like building a multilingual puzzle
+ * Return: 0 if no errors, non-zero otherwise
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-
 	return (0);
 }
