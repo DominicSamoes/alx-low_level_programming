@@ -4,8 +4,9 @@
 
 /**
  * main - assigns rand num to int n
- * the if statement outputs negative, zero or positive
- * return: 0 always
+ * 	  and whether n is negative, zero or positive.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
