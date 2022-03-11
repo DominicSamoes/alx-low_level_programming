@@ -4,7 +4,7 @@
 
 /**
  * main - assigns rand num to int n
- * 	  and whether n is negative, zero or positive.
+ *	and whether n is negative, zero or positive.
  *
  * Return: Always 0.
  */
