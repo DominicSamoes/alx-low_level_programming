@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - Prints numbers 0 to 99
+ *main - Prints all the possible combinations of of two digits.
  *
  * Return: 0 always.
  */
@@ -13,14 +13,14 @@ int main(void)
 	{
 		for (num2 = 0; num2 < 10; num2++)
 		{
-			putchar(num1 + '0');
-			putchar(num2 + '0');
+			putchar((num1 % 10) + '0');
+			putchar((num2 % 10) + '0');
 
-			if (!(num1 == 9 && num2 == 9))
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			if (num1 == 9 && num2 == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
 
