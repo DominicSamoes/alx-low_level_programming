@@ -9,3 +9,4 @@ Task 7, C program prints the lowercase alphabet in reverse, followed by a new li
 Task 8, C program prints all the numbers of base 16 in lowercase, followed by a new line.
 Task 9, C program that prints all possible combinations of single-digit numbers.
 Task 10, C program  that prints all possible different combinations of two digits.
+Task 11, C program that prints all possible different combinations of three digits.
