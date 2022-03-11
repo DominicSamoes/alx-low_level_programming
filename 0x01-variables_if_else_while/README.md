@@ -5,3 +5,4 @@ Task 3, C program that prints the alphabet in lowercase, and then in uppercase, 
 Task 4, C program  that prints the alphabet in lowercase, excluding q and e.
 Task 5, C program  that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 Task 6, C program that prints all single digit numbers of base 10 starting from 0, followed by a new line using putchar.
+Task 7, C program prints the lowercase alphabet in reverse, followed by a new line.
