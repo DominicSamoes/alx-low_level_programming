@@ -10,3 +10,4 @@ Task 8, C program prints all the numbers of base 16 in lowercase, followed by a 
 Task 9, C program that prints all possible combinations of single-digit numbers.
 Task 10, C program  that prints all possible different combinations of two digits.
 Task 11, C program that prints all possible different combinations of three digits.
+Task 12, C program that prints all possible combinations of two two-digit numbers.
