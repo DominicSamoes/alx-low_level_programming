@@ -15,6 +15,7 @@ int main(void)
 	long int fibo1 = 1, fibo2 = 2;
 	long int sum;
 
+	printf("%ld, %ld", fibo1, fibo2);
 	for (i = 0; i < 48; i++)
 	{
 		sum = fibo1 + fibo2;
