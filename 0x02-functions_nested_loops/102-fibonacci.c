@@ -1,4 +1,4 @@
-i/*
+/*
  * Auth: Dominic Samo
  */
 
@@ -12,21 +12,16 @@ i/*
 int main(void)
 {
 	int i;
-	unsigned long fibo1 = 0, fibo2 = 1, sum;
-
-	for (i = 0; i < 50; i++)
+	long int fibo1 = 1, fibo2 = 2, sum;
+	
+	printf("%ld, %ld", fibo1, fibo2);
+	for (i = 0; i < 48; i++)
 	{
 		sum = fibo1 + fibo2;
-		printf("%lu", sum);
-
+		printf(", %ld", sum);
 		fibo1 = fibo2;
 		fibo2 = sum;
-
-		if (i == 49)
-			printf("\n");
-		else
-			printf(", ");
 	}
-
+	printf("\n");
 	return (0);
 }
