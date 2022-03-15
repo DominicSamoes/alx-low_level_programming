@@ -26,7 +26,7 @@ int main(void)
 	}
 	fibo1_h1 = fibo1 / 10000000000;
 	fibo2_h1 = fibo2 / 10000000000;
-	fibo1_h2 = fib1 % 10000000000;
+	fibo1_h2 = fibo1 % 10000000000;
 	fibo2_h2 = fibo2 % 10000000000;
 
 	for (i = 93; i < 99; i++)
