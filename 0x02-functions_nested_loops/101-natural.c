@@ -10,7 +10,7 @@
  *
  *Return: 0 always.
  */
-in main(void)
+int main(void)
 {
 	int counter, sum = 0;
 
