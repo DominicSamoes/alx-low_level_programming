@@ -9,4 +9,5 @@ Task 7, Function that prints the last digit of a number.
 Task 8, Function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 Task 9, Function that prints the 9 times table, starting with 0.
 Task 10, Function that adds two integers and returns the result.
-Task 11, Function that prints all natural numbers from n to 98, followed by a new line. 
+Task 11, Function that prints all natural numbers from n to 98, followed by a new line.
+Task 12, Function that prints the n times table, starting with 0. 
