@@ -8,6 +8,6 @@
  */
 
 int _putchar(char);
-void print_alpabet(void);
+void print_alphabet(void);
 
 #endif
