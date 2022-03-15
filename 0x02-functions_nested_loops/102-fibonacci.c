@@ -12,9 +12,9 @@
 int main(void)
 {
 	int i;
-	long int fibo1 = 1, fibo2 = 2, sum;
-	
-	printf("%ld, %ld", fibo1, fibo2);
+	long int fibo1 = 1, fibo2 = 0;
+	long int sum;
+
 	for (i = 0; i < 48; i++)
 	{
 		sum = fibo1 + fibo2;
