@@ -5,15 +5,14 @@ ii/*
 #include <stdio.h>
 
 /**
- *main - Prints sum of even-valued Fbonacci numbers
- *	below 4,000,000.
+ *main - Prints sum of even-valued Fbonacci numbers.
  *
  *Return: 0 always.
  */
 int main(void)
 {
-	unsigned long fibo1 = 0, fibo2 = 1, sum;
-	float total;
+	long int fibo1 = 1, fibo2 = 2;
+	long int sum = total = 0;
 
 	while (1)
 	{
