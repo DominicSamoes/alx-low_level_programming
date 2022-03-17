@@ -12,15 +12,15 @@
  */
 int main(void)
 {
-	long int i, pf;
+	long int n, pf;
 
-	i = 612852475143;
+	n = 612852475143;
 
-	for (pf = 2; pf <= i; pf++)
+	for (pf = 2; pf <= n; pf++)
 	{
 		if (n % pf == 0)
 		{
-			i /= pf;
+			n /= pf;
 			pf--;
 		}
 	}
