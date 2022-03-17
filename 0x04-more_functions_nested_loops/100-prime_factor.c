@@ -25,7 +25,7 @@ int main(void)
 		}
 	}
 
-	printf("%d\n", pf);
+	printf("%lu\n", pf);
 
 	return (0);
 }
