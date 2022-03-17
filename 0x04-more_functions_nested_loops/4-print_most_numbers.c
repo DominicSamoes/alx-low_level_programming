@@ -1,5 +1,5 @@
 /*
- * File: 3-print_numbers.c
+ * File: 4-print_most_numbers.c
  * Auth: Dominic Samo
  */
 
@@ -21,7 +21,8 @@ void print_most_numbers(void)
 		}
 		else
 		{
-			_putchar(i);
+			_putchar((i % 10) + '0');
 		}
 	}
+	_putchar('\n');
 }
