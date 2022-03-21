@@ -13,7 +13,7 @@
  */
 int _atoi(char *s)
 {
-	int cue;
+	int cue = 1;
 
 	unsigned int num = 0;
 
