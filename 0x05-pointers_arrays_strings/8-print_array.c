@@ -12,7 +12,7 @@
  * @a: pointer to char.
  * @n: number of elements to be printed.
  */
-void print_array(char *a, int n)
+void print_array(int *a, int n)
 {
 	int i;
 
