@@ -5,3 +5,4 @@ Task 3, C function that prints a string, followed by a new line, to stdout.
 Task 4, C function that prints a string, in reverse, followed by a new line.
 Task 5, C function that reverses a string.
 Task 6, C unction that prints every other character of a string, starting with the first character, followed by a new line.
+Task 7, C function that prints half of a string, followed by a new line.
