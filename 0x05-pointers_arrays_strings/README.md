@@ -8,3 +8,4 @@ Task 6, C unction that prints every other character of a string, starting with t
 Task 7, C function that prints half of a string, followed by a new line.
 Task 8, C function that prints n elements of an array of integers, followed by a new line.
 Task 9, C function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+Task , C function that convert a string to an integer.
