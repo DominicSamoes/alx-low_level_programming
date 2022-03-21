@@ -15,13 +15,13 @@
  */
 int main(void)
 {
-	int code[500], i, sum, num;
+	int code[100], i, sum, num;
 
 	sum = 0;
 
 	srand(time(NULL));
 
-	for (i = 0; i < 500; i++)
+	for (i = 0; i < 100; i++)
 	{
 		code[i] = rand() % 78;
 		sum += (code[i] + '0');
