@@ -30,5 +30,5 @@ int _atoi(char *s)
 	}
 
 
-	return (num * sign);
+	return (num * cue);
 }
