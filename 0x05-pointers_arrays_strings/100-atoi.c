@@ -17,8 +17,7 @@ int _atoi(char *s)
 
 	unsigned int num = 0;
 
-	while (*s++)
-	{
+	do {
 		if (*s == '-')
 			cue *= -1;
 
@@ -27,7 +26,7 @@ int _atoi(char *s)
 
 		else if (num > 0)
 			break;
-	}
+	} while (*s++);
 
 
 	return (num * cue);
