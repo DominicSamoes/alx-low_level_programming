@@ -1,19 +1,17 @@
+/*
+ * File: 0-reset_to_98.c
+ * Author: Dominic Samo
+ */
+
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check code
+ * reset_to_98 - takes pointer to an int param and
+ *	updates the val it points to to 98.
  *
- * Return: Always 0.
+ * @n: pointer to int.
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	int n;
-
-	n = 402;
-	printf("n=%d\n", n);
-	reset_to_98(&n);
-	printf("n=%d\n", n);
-
-	return (0);
+	*n = 98;
 }
