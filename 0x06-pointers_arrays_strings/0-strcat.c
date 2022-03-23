@@ -3,8 +3,8 @@
 /**
  * _strncat - Concatenates two strings.
  *
- * @dest - pointer to first string.
- * @src - pointer to second string.
+ * @dest: pointer to first string.
+ * @src: pointer to second string.
  *
  * Return: pointer to dest
  */
