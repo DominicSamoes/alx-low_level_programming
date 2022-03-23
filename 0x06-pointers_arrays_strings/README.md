@@ -4,3 +4,4 @@ Task 2, C function that copies a string.
 Task 3, C function that compares two strings.
 Task 4, C function that reverses the content of an array of integers.
 Task 5, C function that changes all lowercase letters of a string to uppercase.
+Task 6, C  function that capitalizes all words of a string.
