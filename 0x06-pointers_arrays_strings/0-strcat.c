@@ -5,16 +5,25 @@
  *
  * @dest - pointer to first string.
  * @src - pointer to second string.
- * @n - number of bytes 
- * Return: dest
+ *
+ * Return: pointer to dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src)
 {
-	int i;
+	int a = 0, b = 0;
 
-	for (i = 0; i < n; i++)
+	while (*(dest + a) != '\0')
 	{
-		dest[i] = src;
+		a++;
+	}
+
+	while (b >= 0)
+	{
+		*(a + b) = *(src + b);
+		if (*(src + b) == '\0')
+			break;
+		a++;
+		b++;
 	}
 
 	return (dest);
