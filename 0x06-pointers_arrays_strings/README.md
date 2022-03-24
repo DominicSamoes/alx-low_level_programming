@@ -9,4 +9,5 @@ Task 7, C function that encodes a string into 1337.
 Task 8, C function that encodes a string using rot13.
 Task 9, C function that prints an integer.
 Task 10, C program prints a[2] = 98, followed by a new line.
-Task 11, C function that adds two numbers.  
+Task 11, C function that adds two numbers.
+Task 12, C function that prints a buffer.  
