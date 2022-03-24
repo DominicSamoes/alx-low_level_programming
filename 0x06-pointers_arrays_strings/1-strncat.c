@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - Concatenates two strings.
+ * _strncat - Concatenates two strings.
  *
  * @dest: pointer to first string.
  * @src: pointer to second string.
@@ -9,22 +9,18 @@
  *
  * Return: pointer to dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	int a = 0, b = 0;
+	int index = 0, len_dest = 0;
 
-	while (*(dest + a) != '\0')
+	while (dest[index++])
 	{
-		a++;
+		len_dest++;
 	}
 
-	while (b < n)
+	for (index = 0; src[index] && index < n; index++)
 	{
-		*(a + b) = *(src + b);
-		if (*(src + b) == '\0')
-			break;
-		a++;
-		b++;
+		dest[len_dest++] = src[index];
 	}
 
 	return (dest);
