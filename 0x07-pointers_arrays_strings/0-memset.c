@@ -19,13 +19,12 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i = 0;
-	unsigned char *mem = s, val = b;
 
-	while (i < n)
+	for (; i < n; )
 	{
-		mem[i] = val;
+		*(s + i) = b;
 		i++;
 	}
 
-	return (mem);
+	return (s);
 }
