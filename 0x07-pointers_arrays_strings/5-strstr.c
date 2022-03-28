@@ -12,7 +12,7 @@
  * @needle: substring.
  *
  * Return: The pointer to the beginning of a located
- * 	substring. Null if substring is not found.
+ *	substring. Else Null.
  */
 char *_strstr(char *haystack, char *needle)
 {
