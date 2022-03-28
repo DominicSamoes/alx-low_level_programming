@@ -12,11 +12,13 @@
  * @s: memory area.
  * @b: buffer.
  * @n: number of bytes.
- * @size: buffer size.
+ * @s: buffer size.
+ *
+ * Return: The pointer to dest.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int i = 0;
 	unsigned char *mem = s, val = b;
 
 	while (i < n)
