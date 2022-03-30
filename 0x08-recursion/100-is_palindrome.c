@@ -51,5 +51,5 @@ int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (1);
-	return (comp(s, 0, _strlen_recur(s) - 1);
+	return (comp(s, 0, _strlen_recur(s) - 1));
 }
