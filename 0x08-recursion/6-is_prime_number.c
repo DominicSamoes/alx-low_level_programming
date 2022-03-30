@@ -18,7 +18,7 @@ int is_prime_num(unsigned int n, unsigned int i)
 	if (n % i == 0)
 	{
 		if (n == i)
-			return (1)
+			return (1);
 		else
 			return (0);
 	}
