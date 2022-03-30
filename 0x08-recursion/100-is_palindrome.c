@@ -1,5 +1,5 @@
 /*
- *File: 100-is_palindrome.c 
+ *File: 100-is_palindrome.c
  *Auth: Dominic Samo
  */
 
@@ -19,7 +19,6 @@ int _strlen_recur(char *s)
 	else
 		return (1 + _strlen_recur(s + 1));
 }
-
 /**
  * comp - compares each character of the string.
  *
@@ -39,7 +38,6 @@ int comp(char *s, int a, int b)
 	}
 	return (0);
 }
-
 /**
  * is_palindrome - checks whether string is a palindrome or not.
  *
