@@ -6,13 +6,13 @@
 #include "main.h"
 
 /**
- * _str_recur - returns length of the string.
+ * _strlen_recur - returns length of the string.
  *
  * @s: string.
  *
  * Return: length of string.
  */
-int _str_recur(char *s)
+int _strlen_recur(char *s)
 {
 	if (*s == '\0')
 		return (0);
