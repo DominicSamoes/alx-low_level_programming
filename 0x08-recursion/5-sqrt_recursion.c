@@ -14,6 +14,8 @@
  */
 int _sqrt_recursion(int n)
 {
+	double temp = n/2;
+
 	if (n < 0)
 	{
 		return (-1);
@@ -24,6 +26,19 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (n / _sqrt_recursion(n - 1));
+		do 
+		{
+			if ((temp * temp) > n)
+			{
+				temp /= 2;
+			}
+			if (temp * temp < n)
+			{
+				temp += (n - temp);
+			}
+
+		} while (((n - temp) >= .001) || (temp - n) >= .001)
+
+		return (temp);
 	}
 }
