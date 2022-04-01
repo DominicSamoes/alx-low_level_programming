@@ -7,3 +7,4 @@ This repository contains 0x05. Pointers, arrays and strings Tasks.
 This repository contains 0x06. C - More pointers, arrays and strings Tasks.
 This repository contains 0x07. C - Even more pointers, arrays and strings Tasks.
 This repository contains 0x08. C - Recursion Tasks.
+This repository contains 0x09. C - Static libraries Tasks.
