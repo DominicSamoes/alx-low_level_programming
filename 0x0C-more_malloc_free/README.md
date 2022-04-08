@@ -3,3 +3,4 @@
 *Task 2*: function that allocates memory for an array, using malloc.
 *Task 3*: function that creates an array of integers.
 *Task 4*: function that reallocates a memory block using malloc and free.
+*Task 5*: program that multiplies two positive numbers.
