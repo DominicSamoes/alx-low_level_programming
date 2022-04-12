@@ -11,3 +11,4 @@ This repository contains 0x09. C - Static libraries Tasks.
 This repository contains 0x0A. C - argc, argv Tasks.
 This repository contains 0x0B. C - malloc, free Tasks.
 This repository contains 0x0D. C - Preprocessor Tasks.
+This repository contains 0x0E. C - Structures, typedef Tasks.
