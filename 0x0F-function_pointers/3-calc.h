@@ -3,7 +3,7 @@
 
 /*
  * File: 3-calc.h
- * Auth: Dominic Samo 
+ * Auth: Dominic Samo
  * Desc: Header file containing all structures and
  *       prototypes used by the 3-main.c program.
  */
