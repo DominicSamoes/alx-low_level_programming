@@ -13,3 +13,4 @@ This repository contains 0x0B. C - malloc, free Tasks.
 This repository contains 0x0D. C - Preprocessor Tasks.
 This repository contains 0x0E. C - Structures, typedef Tasks.
 This repository contains 0x0F. C - Function pointers Tasks.
+This repository contains 0x10. C - Variadic functions Tasks.
