@@ -1,5 +1,5 @@
 /*
- *File: 0-sum_them_all.c
+ *File: 1-print_numbers.c
  *Auth: Dominic Samo
  */
 #include "variadic_functions.h"
