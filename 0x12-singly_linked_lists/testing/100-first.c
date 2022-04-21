@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include "lists.h"
+
+void hare_tortoise(void) __attribute__ ((constructor));
 
 /**
- * hare - Prints a string before the
+ * hare_tortoise - Prints a string before the
  *        main function is executed.
  */
-void hare(void)
+void hare_tortoise(void)
 {
 	printf("You're beat! and yet, you must allow,\n"
 	       "I bore my house upon my back!\n");

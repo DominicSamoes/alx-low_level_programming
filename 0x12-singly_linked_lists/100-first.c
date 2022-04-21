@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-void hare(void);
-
 /**
- * hare - Prints a string before the
+ * beforemain - Prints a string before the
  *        main function is executed.
  */
-void hare(void)
+void __attribute__ ((constructor)) beforemain()
 {
 	printf("You're beat! and yet, you must allow,\n"
 	       "I bore my house upon my back!\n");

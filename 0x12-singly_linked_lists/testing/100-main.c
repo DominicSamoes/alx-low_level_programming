@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	hare();
+	beforemain();
 	return (0);
 }
