@@ -29,7 +29,7 @@ These are all the tasks of this project, the ones that are completed link to the
   - If str is NULL, print [0] (nil)
   - printf is allowed
 
-### [List length](./1-list_len.c)
+### [1. List length](./1-list_len.c)
 * Function that returns the number of elements in a linked list_t list.
 	- Prototype: size_t list_len(const list_t *h);
 
