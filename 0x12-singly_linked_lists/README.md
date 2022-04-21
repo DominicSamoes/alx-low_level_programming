@@ -31,6 +31,5 @@ These are all the tasks of this project, the ones that are completed link to the
 
 ---
 
-### Authors
-* **Dominic Samo** - [dominicsamogmail.com](https://github.com/DominicSamoes)
-* **Abakar Mahamat Mallah** - [bokormallaimy@gmail.com](https://github.com/)
+### Author
+* **Dominic Samo** - (https://github.com/DominicSamoes)
