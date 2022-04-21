@@ -47,6 +47,11 @@ These are all the tasks of this project, the ones that are completed link to the
 	- str needs to be duplicated
 	- strdup is allowed
 
+### [4. Free list](./4-free_list.c)
+* Function that frees a list_t list.
+	- Prototype: void free_list(list_t *head);
+
+
 ---
 
 ### Author
