@@ -1,7 +1,7 @@
 # ALX Low Level Programming
 
-### This repository contains 0x00. C-Hello, World Tasks.(./0x00-hello_world)
-### This repository contains 0x01. C - Variables, if, else, while Tasks.(/0x01-variables_if_else_while)
+### This repository contains 0x00. C-Hello, World Tasks.(0x00-hello_world)
+### This repository contains 0x01. C - Variables, if, else, while Tasks.(0x01-variables_if_else_while)
 ### This repository contains 0x02. C Functions, nested loops.
 ### This repository contains 0x03. C - Debugging Tasks.
 ### This repository contains 0x04. C - More functions, more nested loops Tasks.
@@ -19,4 +19,4 @@
 
 
 ### Authors
-* **Dominic Samo** - [dominicsamo@gmail.com](https://github.com/DominicSamoes)
+* **Dominic Samo** - (https://github.com/DominicSamoes)
