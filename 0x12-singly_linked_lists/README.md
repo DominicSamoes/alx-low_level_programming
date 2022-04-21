@@ -51,6 +51,9 @@ These are all the tasks of this project, the ones that are completed link to the
 * Function that frees a list_t list.
 	- Prototype: void free_list(list_t *head);
 
+### [5. The Hare and the Tortoise](./100-first.c)
+* Function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
+	- printf is allowed
 
 ---
 
