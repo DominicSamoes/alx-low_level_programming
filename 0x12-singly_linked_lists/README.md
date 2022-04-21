@@ -55,6 +55,12 @@ These are all the tasks of this project, the ones that are completed link to the
 * Function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
 	- printf is allowed
 
+### [6. Real programmers can write assembly code in any language](./101-hello_holberton.asm)
+* 64-bit program in assembly that prints Hello, Holberton, followed by a new line.
+	- printf is allowed
+	- interrupts not allowed
+	- program compiled using nasm and gcc
+
 ---
 
 ### Author
