@@ -17,6 +17,8 @@
 ### [This repository contains 0x0F. C - Function pointers Tasks.](./0x0F-function_pointers)
 ### [This repository contains 0x10. C - Variadic functions Tasks.](./0x10-variadic_functions)
 ### [This repository contains 0x12. C - Singly linked lists Tasks.](./0x12-singly_linked_lists)
+### [This repository contains 0x13. C - More singly linked lists Tasks](./0x13-more_singly_linked_lists)
+
 
 ### Author
 * **Dominic Samo** - (https://github.com/DominicSamoes)
