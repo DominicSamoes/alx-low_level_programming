@@ -12,7 +12,7 @@ What I learned from the tasks:
 
 ## General Requirements
 * Allowed editors: vi, vim and emacs.
-* All files were created and compiled on Ubuntu 20.04.4 LTS using using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89```
+* All files were created and compiled on Ubuntu 20.04.4 LTS using using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 * Code checked with betty-style.pl and betty-doc.pl
 
 ---
@@ -28,6 +28,12 @@ These are all the tasks of this project, the ones that are completed link to the
   - Return: the converted number, or 0 if
 	+ there is one or more chars in the string b that is not 0 or 1
 	+ b is NULL
+
+### [1. 1](./2-get_bit.c)
+* Function that returns the value of a bit at a given index.
+	- Prototype: int get_bit(unsigned long int n, unsigned int index);
+	- where index is the index, starting from 0 of the bit you want to get
+	- Returns: the value of the bit at index index or -1 if an error occured
 
  
 
