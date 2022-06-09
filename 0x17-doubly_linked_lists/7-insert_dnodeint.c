@@ -1,86 +1,40 @@
 #include "lists.h"
 
 /**
-  * insert_dnodeint_at_index - Insert a new node at a given position
-  * @h: Pointer to the head of a DLL
-  * @idx: The index in which insert the new node
-  * @n: The number to insert in the new node
-  *
-  * Return: The address of the new node, or NULL if it failed
-  */
+ * insert_dnodeint_at_index - Insert new node in DLL.
+ * @h: Pointer to head of DLL.
+ * @idx: Position to insert new node.
+ * @n: Integer to be inputted.
+ *
+ * Return: If the function fails - NULL.
+ *         Otherwise - the address of the new node.
+ */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *current = NULL, *new_node = NULL;
-	unsigned int iter_times = 0, length = 0;
+	dlistint_t *temp = *h, *newnode;
 
-	if (h == NULL)
-		return (NULL);
-
-	if (*h == NULL && idx == 0)
-		return (add_dnodeint(h, n));
-
-	length = dlistint_len(*h);
 	if (idx == 0)
 		return (add_dnodeint(h, n));
-	else if (length == idx)
+	while (idx != 1)
+	{
+		temp = temp->next;
+		if (temp == NULL)
+			return (NULL);
+		idx--;
+	}
+
+	if (temp->next == NULL)
 		return (add_dnodeint_end(h, n));
 
-	current = *h;
-	while (current != NULL)
-	{
-		if (iter_times == idx)
-		{
-			new_node = create_node(n, current, current->prev);
-			current->prev = new_node;
-			current = new_node;
-			current->prev->next = new_node;
-			return (new_node);
-		}
-
-		current = current->next;
-		++iter_times;
-	}
-
-	return (current);
-}
-
-/**
-  * dlistint_len - Count the number of elements in a DLL
-  * @h: Pointer to the DLL head
-  *
-  * Return: Number of elements in the doubly linked list
-  */
-size_t dlistint_len(const dlistint_t *h)
-{
-	int lenght = 0;
-
-	while (h != NULL)
-	{
-		++lenght;
-		h = h->next;
-	}
-
-	return (lenght);
-}
-
-/**
-  * create_node - Create a new node with values
-  * @n: The number of the new node
-  * @next: The next node of the new node
-  * @prev: The previous node of the new node
-  *
-  * Return: The address of the new node created
-  */
-dlistint_t *create_node(unsigned int n, void *next, void *prev)
-{
-	dlistint_t *new_node = NULL;
-
-	new_node = malloc(sizeof(dlistint_t));
-	if (new_node == NULL)
+	newnode = malloc(sizeof(dlistint_t));
+	if (newnode == NULL)
 		return (NULL);
 
-	new_node->n = n;
-	new_node->next = next;
-	new_node->prev = prev;
-	return (new_node);
+	newnode->n = n;
+	newnode->prev = temp;
+	newnode->next = temp->next;
+	temp->next->prev = newnode;
+	temp->next = newnode;
+
+	return (newnode);
 }
