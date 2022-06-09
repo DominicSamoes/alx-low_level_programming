@@ -21,6 +21,7 @@
 ### [This repository contains 0x14. C - Bit manipulation Tasks](./0x14-bit_manipulation)
 ### [This repository contains 0x15. C - File I/O](./0x15-file_io)
 
+### [This repository contains 0x17. C - Doubly linked lists](./0x17-doubly_linked_lists)
 
 ### Author
 * **Dominic Samo** - (https://github.com/DominicSamoes)
