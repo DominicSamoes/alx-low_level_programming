@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - Insert new node in DLL.
+ * insert_dnodeint_at_index - Insert new node node in DLL.
  * @h: Pointer to head of DLL.
- * @idx: Position to insert new node.
+ * @idx: Position to insert new node node.
  * @n: Integer to be inputted.
  *
  * Return: If the function fails - NULL.
- *         Otherwise - the address of the new node.
+ *         Otherwise - the address of the newnode node.
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
@@ -15,12 +15,12 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	if (idx == 0)
 		return (add_dnodeint(h, n));
-	while (idx != 1)
+
+	for (; idx != 1; idx--)
 	{
 		temp = temp->next;
 		if (temp == NULL)
 			return (NULL);
-		idx--;
 	}
 
 	if (temp->next == NULL)
@@ -37,4 +37,5 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	temp->next = newnode;
 
 	return (newnode);
+}
 }
