@@ -9,12 +9,15 @@
  */
 int sum_dlistint(dlistint_t *head)
 {
+	dlistint_t *node = head;
 	int sum = 0;
 
-	do {
-		sum += head->n;
-		head = head->next;
-	} while (head);
-
+	if (head)
+	{
+		do {
+			sum += node->n;
+			node = node->next;
+		} while (node != NULL);
+	}
 	return (sum);
 }
