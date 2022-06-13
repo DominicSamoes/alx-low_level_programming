@@ -23,5 +23,7 @@
 
 ### [This repository contains 0x17. C - Doubly linked lists](./0x17-doubly_linked_lists)
 
+### [This repository contains 0x18. C - Dynamic libraries](./0x18-dynamic_libraries)
+
 ### Author
 * **Dominic Samo** - (https://github.com/DominicSamoes)
