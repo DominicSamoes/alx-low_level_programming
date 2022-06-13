@@ -30,6 +30,11 @@ These are all the tasks of this project, the ones that are completed link to the
 
 ### [1. Without libraries what have we? We have no past and no future](./1-create_dynamic_lib.sh)
 * Create a script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
+
+### [1. Without libraries what have we? We have no past and no future](./1-create_dynamic_lib.sh)
+* Create a script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
+
+
 ---
 
 ### Author
