@@ -25,5 +25,7 @@
 
 ### [This repository contains 0x18. C - Dynamic libraries](./0x18-dynamic_libraries)
 
+### [This repository contains 0x1A. C - Hash tables](./0x1A-hash_tables)
+
 ### Author
 * **Dominic Samo** - (https://github.com/DominicSamoes)
