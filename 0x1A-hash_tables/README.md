@@ -70,6 +70,19 @@ where size is the size of the array
 		+ and key is the key you are looking for
 	- Returns the value associated with the element, or NULL if key couldn’t be found
 
+### [5. >>> print(ht)](./5-hash_table_print.c)
+* Write a function that prints a hash table.
+
+	- Prototype: void hash_table_print(const hash_table_t *ht);
+	- where ht is the hash table
+	- You should print the key/value in the order that they appear in the array of hash table
+		+ Order: array, list
+	- Format: see example
+	- If ht is NULL, don’t print anything
+
+
+
+
 ---
 
 ### Author
