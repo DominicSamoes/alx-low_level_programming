@@ -29,6 +29,8 @@
 
 ### [This repository contains 0x1C. C - Makefiles Tasks](./0x1C-makefiles)
 
+### [This repository contains 0x1E. C - Search Algorithms Tasks](./0x1E-search_algorithms)
+
 
 
 ### Author
